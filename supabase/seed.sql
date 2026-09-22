@@ -1,4 +1,4 @@
--- Glowbook — données de démonstration (Marseille) pour le développement.
+-- MonCréno — données de démonstration (Marseille) pour le développement.
 -- Ne PAS exécuter sur un projet Supabase de production.
 
 -- Compte propriétaire de la plateforme (à relier ensuite à un utilisateur
@@ -9,7 +9,7 @@ on conflict (email) do nothing;
 
 -- Un salon "propriétaire" fictif pour rattacher les fiches de démo
 insert into accounts (id, email, role)
-values ('00000000-0000-0000-0000-000000000002', 'demo-salon@glowbook.fr', 'pro')
+values ('00000000-0000-0000-0000-000000000002', 'demo-salon@moncreno.fr', 'pro')
 on conflict (email) do nothing;
 
 insert into salons (
