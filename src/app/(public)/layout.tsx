@@ -1,0 +1,29 @@
+import Link from "next/link";
+
+export default function PublicLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="flex min-h-screen flex-col">
+      <header className="border-b border-black/5 bg-white">
+        <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
+          <Link href="/" className="text-xl font-semibold text-brand-dark">
+            Glowbook
+          </Link>
+          <nav className="flex gap-4 text-sm text-ink/70">
+            <Link href="/">Rechercher</Link>
+          </nav>
+        </div>
+      </header>
+
+      <main className="flex-1">{children}</main>
+
+      <footer className="border-t border-black/5 py-8 text-center text-xs text-ink/40">
+        <p>© {new Date().getFullYear()} Glowbook</p>
+        <p className="mt-1">
+          <Link href="/pro" className="hover:underline">
+            Espace pro
+          </Link>
+        </p>
+      </footer>
+    </div>
+  );
+}
