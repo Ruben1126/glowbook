@@ -21,9 +21,9 @@ export default async function InvitationPage({ params, searchParams }: Invitatio
 
   return (
     <div className="mx-auto max-w-lg px-4 py-16">
-      <h1 className="text-2xl font-semibold">Bienvenue sur Glowday</h1>
+      <h1 className="text-2xl font-semibold">Bienvenue sur GoAndGlow</h1>
       <p className="mt-2 text-ink/70">
-        Glowday vous invite à publier la fiche de <strong>{salon.name}</strong>, sans
+        GoAndGlow vous invite à publier la fiche de <strong>{salon.name}</strong>, sans
         commission sur vos réservations. 6 mois offerts, sans carte bancaire.
       </p>
 
@@ -57,7 +57,7 @@ export default async function InvitationPage({ params, searchParams }: Invitatio
                   <a href="/confidentialite" className="underline" target="_blank">
                     politique de confidentialité
                   </a>{" "}
-                  de Glowday.
+                  de GoAndGlow.
                 </span>
               </label>
               <button

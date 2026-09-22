@@ -1,4 +1,4 @@
-# Glowday
+# GoAndGlow
 
 Plateforme de réservation en ligne pour les métiers de la beauté (coiffure,
 barbier, ongles, esthétique, massage), sans commission pour la plateforme :
@@ -13,7 +13,7 @@ viendra dans un second temps.
 
 - **Next.js 14** (App Router), un seul projet pour les deux points d'entrée :
   - site particuliers : `/`, `/[ville]`, `/[ville]/[categorie]`, `/[ville]/[categorie]/[salon]`
-  - espace pro + admin : `/pro/*` (à terme servi sur `pro.glowday.fr`)
+  - espace pro + admin : `/pro/*` (à terme servi sur `pro.goandglow.fr`)
 - **Supabase** (Postgres + Auth) : connexion par e-mail + code à usage
   unique (pas de mot de passe), sécurité par ligne (RLS) pour séparer les
   données par rôle et par salon.

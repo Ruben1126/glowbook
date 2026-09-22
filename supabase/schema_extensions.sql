@@ -1,4 +1,4 @@
--- Glowday — étape 2 : colonnes nécessaires pour brancher l'authentification
+-- GoAndGlow — étape 2 : colonnes nécessaires pour brancher l'authentification
 -- Supabase (connexion par e-mail + code) et le référencement (URLs
 -- ville / quartier / catégorie / salon). À exécuter après schema.sql.
 

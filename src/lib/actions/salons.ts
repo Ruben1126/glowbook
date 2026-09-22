@@ -191,11 +191,11 @@ export async function createSalonInvitation(formData: FormData) {
 
   await sendEmail({
     to: email,
-    subject: `${name} est invité sur Glowday`,
+    subject: `${name} est invité sur GoAndGlow`,
     text: [
       `Bonjour,`,
       ``,
-      `Glowday vous invite à rejoindre la plateforme de réservation en ligne, sans commission.`,
+      `GoAndGlow vous invite à rejoindre la plateforme de réservation en ligne, sans commission.`,
       `Vous bénéficiez de 6 mois offerts, sans carte bancaire.`,
       ``,
       `Pour activer votre fiche « ${name} », rendez-vous ici : ${link}`,
@@ -203,7 +203,7 @@ export async function createSalonInvitation(formData: FormData) {
       `Vous trouverez en pièce jointe (simulée) notre politique de confidentialité et nos`,
       `conditions générales d'utilisation. En confirmant, vous les acceptez.`,
       ``,
-      `L'équipe Glowday`,
+      `L'équipe GoAndGlow`,
     ].join("\n"),
   });
 

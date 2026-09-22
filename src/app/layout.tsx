@@ -3,11 +3,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Glowday — Réservez votre rendez-vous beauté",
-    template: "%s · Glowday",
+    default: "GoAndGlow — Réservez votre rendez-vous beauté",
+    template: "%s · GoAndGlow",
   },
   description:
-    "Glowday, la réservation en ligne pour les salons de coiffure, barbiers, instituts, ongleries et masseurs.",
+    "GoAndGlow, la réservation en ligne pour les salons de coiffure, barbiers, instituts, ongleries et masseurs.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
