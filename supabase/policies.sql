@@ -1,4 +1,4 @@
--- MonCréno — étape 3 : fonctions utilitaires + politiques RLS.
+-- Glowday — étape 3 : fonctions utilitaires + politiques RLS.
 -- À exécuter après schema.sql et schema_extensions.sql.
 
 -- ---------------------------------------------------------------------

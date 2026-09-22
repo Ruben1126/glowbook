@@ -1,4 +1,4 @@
--- MonCréno — schéma de base (à coller dans l'éditeur SQL de Supabase)
+-- Glowday — schéma de base (à coller dans l'éditeur SQL de Supabase)
 -- Étape 1 : tables principales. Les règles de sécurité (RLS) détaillées
 -- viendront à l'étape suivante, une fois l'authentification branchée.
 
@@ -98,7 +98,7 @@ create table bookings (
   price numeric(10,2) not null,
   deposit numeric(10,2) default 0,
   status text not null default 'ok' check (status in ('ok','noshow','cancelled')),
-  source text not null default 'moncreno',
+  source text not null default 'glowday',
   note text,
   address text,
   created_at timestamptz not null default now()

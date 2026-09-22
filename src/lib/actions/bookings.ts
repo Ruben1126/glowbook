@@ -152,7 +152,7 @@ export async function createBooking(formData: FormData) {
     duration_min: service!.duration_min,
     price: service!.price,
     status: "ok" as const,
-    source: "moncreno",
+    source: "glowday",
   }));
 
   const { data: created, error: insertError } = await admin

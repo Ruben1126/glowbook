@@ -3,11 +3,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "MonCréno — Réservez votre rendez-vous beauté",
-    template: "%s · MonCréno",
+    default: "Glowday — Réservez votre rendez-vous beauté",
+    template: "%s · Glowday",
   },
   description:
-    "MonCréno, la réservation en ligne pour les salons de coiffure, barbiers, instituts, ongleries et masseurs.",
+    "Glowday, la réservation en ligne pour les salons de coiffure, barbiers, instituts, ongleries et masseurs.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
